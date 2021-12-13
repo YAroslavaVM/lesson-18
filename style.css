@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+ }
+
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+li{
+    display:inline-flex;
+    border-radius: 50%;
+    border: 1.5px solid rgb(255, 248, 248);
+}
+
+.wr-flex-none{
+    flex: none !important;
+}
+
+.uk-card-footer {
+    
+    padding: 0;
+}
+
+ol, ul {
+    padding-left: 0px;
+}
+
+.uk-card-body {
+    margin: 10px;
+    padding: 20px 20px;
+    border-radius: 5%;
+}
